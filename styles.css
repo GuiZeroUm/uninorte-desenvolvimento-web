@@ -75,9 +75,33 @@ main {
 
 .div__formulario {
     width: 70%;
-    background-color: blue;
+    margin-top: 20px;
 }
 
 .inputs {
-    width: 40%;
+    width: 60%;
+    border: 1px solid #20c9ad;
+    height: 30px;
+    margin-bottom: 0.5rem;
+    border-radius: 0.4rem;
+    outline: none;
+}
+
+.inputs:focus {
+    border: 1px solid red;
+}
+
+#botao__simular {
+    width: 60%;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    background-color: #20c9ad;
+    border: none;
+    border-radius: 8px;
+}
+
+#botao__simular:hover {
+    background-color: #15927d;
+    cursor: pointer;
 }
