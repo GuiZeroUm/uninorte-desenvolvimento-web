@@ -29,6 +29,7 @@ main {
     margin-top: 50px;
     display: flex;
 }
+
 .div__direita, .div__esquerda {
     flex: 1;
 }
@@ -38,6 +39,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.emoji__money {
+    position: relative;
+    right: 14rem;
 }
 
 .titulo__esquerdo {
@@ -65,7 +71,7 @@ main {
     background: url('assets/car.png');
     background-size: contain;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 250px;
 }
 
 .titulo__direito span {
@@ -81,7 +87,7 @@ main {
 .inputs {
     width: 60%;
     border: 1px solid #20c9ad;
-    height: 30px;
+    height: 2.5rem;
     margin-bottom: 0.5rem;
     border-radius: 0.4rem;
     outline: none;
@@ -104,4 +110,29 @@ main {
 #botao__simular:hover {
     background-color: #15927d;
     cursor: pointer;
+}
+
+.main__secundaria {
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+.div__direita-baixo, .div__esquerda-baixo {
+    flex: 1;
+}
+
+.banner {
+    margin-top: 38px;
+    background: url('assets/banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.div__direita-baixo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
